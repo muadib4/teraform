@@ -1,9 +1,9 @@
 data "ibm_resource_group" "group" {
-    name = "default"
+    name = "CataRG"
 }
 
 resource "ibm_cr_namespace" "cr_namespace" {
-    name = "<namespace_name>"
+    name = "catanamespace"
     resource_group_id = data.ibm_resource_group.group.id
 }
 
