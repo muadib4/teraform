@@ -1,5 +1,5 @@
 data ibm_resource_group "resource_group" {
-    name = "default"
+    name = "CataRG"
 }
 resource ibm_container_cluster "tfcluster" {
 name            = "tfclusterdoc"
