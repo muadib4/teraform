@@ -1,2 +1,2 @@
-# teraform
+# terraform
 IBM Cloud teraform templates
